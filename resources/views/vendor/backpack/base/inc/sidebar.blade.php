@@ -21,6 +21,9 @@
           <!-- ================================================ -->
           <li><a href="{{ url('admin/dashboard') }}"><i class="fa fa-dashboard"></i> <span>{{ trans('backpack::base.dashboard') }}</span></a></li>
           <li><a href="{{ url('admin/elfinder') }}"><i class="fa fa-files-o"></i> <span>File manager</span></a></li>
+           <li><a href="{{ url('admin/promotion') }}"><i class="fa fa-files-o"></i> <span>Promotion</span></a></li>
+            <li><a href="{{ url('admin/news') }}"><i class="fa fa-files-o"></i> <span>News</span></a></li>
+             <li><a href="{{ url('admin/movie') }}"><i class="fa fa-files-o"></i> <span>Movie</span></a></li>
 
 
           <!-- Users, Roles Permissions -->
